@@ -1,0 +1,11 @@
+Change ID,Description,Impact,Status
+CR001,Filled missing CouponCode with NONE (no coupon used),309 rows fixed,Resolved
+CR002,Checked and removed duplicate OrderIDs,0 rows removed,Resolved
+CR003,Checked and removed full-row duplicates,0 rows removed,Resolved
+CR002,Checked and removed duplicate OrderIDs,0 rows removed,Resolved
+CR003,Checked and removed full-row duplicates,0 rows removed,Resolved
+CR004,Verified/standardized Date to ISO 8601 (YYYY-MM-DD),0 invalid dates found,Resolved
+CR005,Trimmed whitespace on all text columns,All rows,Resolved
+CR005,Trimmed whitespace on all text columns,All rows,Resolved
+CR006,Rounded UnitPrice and TotalPrice to 2 decimals,All rows,Resolved
+CR007,Verified/corrected TotalPrice = Quantity x UnitPrice,0 rows corrected,Resolved
